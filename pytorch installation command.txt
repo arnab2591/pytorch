@@ -1,0 +1,20 @@
+Step 1 -> (base) C:\Users\arnabc1x\OneDrive - Intel Corporation\Documents\Python workspace\pytorch>conda env create -f pytorch_env.yml
+
+
+Step-2 -> conda uninstall pytorch
+
+
+Step -3 -> conda install pytorch==1.4.0 torchvision==0.5.0 -c pytorch
+
+
+step - 4 -> import torch
+
+>>> torch.__version__
+
+
+>>> torch.cuda.is_available()
+
+
+>>> torch.cuda.current_device()
+
+>>> torch.cuda.memory_allocated()
